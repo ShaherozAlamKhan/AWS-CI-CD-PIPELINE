@@ -31,7 +31,9 @@ This project automates the deployment of an NGINX web server on an EC2 instance 
   - In the CodeCommit console, open the repository you created. 
   - Click Clone URL and copy the HTTPS URL.
   - Open Visual Studio Code terminal and run: 
-  - git clone <CodeCommit-Repository-URL>
+  ```bash
+   git clone https://git-codecommit.<region>.amazonaws.com/v1/repos/MyAppRepo
+   ```
 
 ### 3.**Download git**
      
