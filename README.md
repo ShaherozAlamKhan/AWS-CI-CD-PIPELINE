@@ -3,7 +3,9 @@
 
 ![WEBSITE-CICD-PROJECT](https://github.com/user-attachments/assets/b8162366-e7e6-4370-af7f-97e6edbec0b9)
 
-Welcome to the **CI/CD Pipeline for NGINX Deployment** project! This repository contains everything you need to set up a fully automated pipeline using AWS CodeCommit, CodeBuild, CodeDeploy, S3, and SNS. The pipeline is designed to deploy an NGINX web server on an EC2 instance, complete with notifications for successful deployments.
+Welcome to the **CI/CD Pipeline for NGINX Deployment** project! This repository contains everything you need to set up a fully automated CI/CD pipeline using AWS services such as CodeCommit, CodeBuild, CodeDeploy, and S3. This pipeline automates the process of building, testing, and deploying applications on AWS.
+
+
 
 ## 🌟 **Project Overview**
 
@@ -11,6 +13,8 @@ This project automates the deployment of an NGINX web server on an EC2 instance 
 
 - **CodeCommit**: Version control for storing source code and configuration files.
 - **CodeBuild**: Compiles and builds the project.
+- **Git Installed**: Git must be installed and configured to manage version control in the VS 
+      Code environment. 
 - **S3**: Stores build artifacts.
 - **CodeDeploy**: Deploys the application to the EC2 instance.
 
@@ -18,15 +22,21 @@ This project automates the deployment of an NGINX web server on an EC2 instance 
 
 - **Automated Deployments**: Push code changes to CodeCommit, and the pipeline automatically builds and deploys them.
 - **NGINX Web Server**: Set up and configure NGINX on an EC2 instance using scripts.
-- **Email Notifications**: Get notified via email when the deployment is successful.
 - **Scalable Architecture**: Easily scalable to meet the needs of your application.
 
 ## 🔧 **Setup Instructions**
 
 ### 1. **Clone the Repository**
-   ```bash
-   git clone https://git-codecommit.<region>.amazonaws.com/v1/repos/MyAppRepo
-   ```
+  - Clone Repository to Local Machine: 
+  - In the CodeCommit console, open the repository you created. 
+  - Click Clone URL and copy the HTTPS URL.
+  - Open Visual Studio Code terminal and run: 
+_ - git clone <CodeCommit-Repository-URL>
+
+### 3.**Download git**
+     
+     - Git –version 
+     -If not downloaded make sure to download from official website
 
 ### 2. **Create and Configure AWS Services**
    - **CodeCommit**: Store your source code.
