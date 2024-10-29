@@ -1,5 +1,5 @@
 # AWS-CI-CD-PIPELINE
-# 🚀 CI/CD Pipeline for NGINX Deployment on EC2 using AWS Services
+# CI/CD Pipeline for NGINX Deployment on EC2 using AWS Services
 
 ![WEBSITE-CICD-PROJECT](https://github.com/user-attachments/assets/b8162366-e7e6-4370-af7f-97e6edbec0b9)
 
@@ -7,7 +7,7 @@ Welcome to the **CI/CD Pipeline for NGINX Deployment** project! This repository 
 
 
 
-## 🌟 **Project Overview**
+##  **Project Overview**
 
 This project automates the deployment of an NGINX web server on an EC2 instance using the following AWS services:
 
@@ -56,7 +56,7 @@ This project automates the deployment of an NGINX web server on an EC2 instance 
 ### 5. **Deploy and Monitor**
    - Monitor the deployment process and receive email notifications.
 
-## 📝 **Configuration Files**
+##  **Configuration Files**
 
 ### **`buildspec.yml`**
 Defines the build process for CodeBuild.
