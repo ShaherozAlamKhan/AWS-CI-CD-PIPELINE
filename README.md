@@ -1,7 +1,8 @@
 # AWS-CI-CD-PIPELINE
 # CI/CD Pipeline for NGINX Deployment on EC2 using AWS Services
 
-![WEBSITE-CICD-PROJECT](https://github.com/user-attachments/assets/b8162366-e7e6-4370-af7f-97e6edbec0b9)
+![362878718-b8162366-e7e6-4370-af7f-97e6edbec0b9](https://github.com/user-attachments/assets/4268c1ef-7f81-4690-881f-ced279189936)
+
 
 Welcome to the **CI/CD Pipeline for NGINX Deployment** project! This repository contains everything you need to set up a fully automated CI/CD pipeline using AWS services such as CodeCommit, CodeBuild, CodeDeploy, and S3. This pipeline automates the process of building, testing, and deploying applications on AWS.
 
